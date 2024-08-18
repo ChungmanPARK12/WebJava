@@ -75,7 +75,7 @@ The purpose of this project is to serve as a central controller in a Java web ap
 
 - **Front Controller Servlet**: Acts as a centralized controller to handle all incoming HTTP requests. It determines the requestd action, delegates it to specific action hadlners and forwards the response to the appropriate view.
 
-* ### Example of Code [Click here](https://github.com/ChungmanPARK12/WebJava/tree/26cfd0277a522082aa493500bdd0f3b6bb9685d4/ControllerLayer)
+* ### Example of Code [Click here](https://github.com/ChungmanPARK12/WebJava/tree/743f2cae43f2e0eb14bc8d416095f5c85df0f2b5/src/ControllerLayer)
 
 <h2></h2>
 
@@ -88,7 +88,7 @@ The purpose of this project is to serve as a central controller in a Java web ap
 - UpdateCartDispatcher.java
 - ViewCartDispatcher.java
 
-* ### One Example Code of Add To Cart [Click here](https://github.com/ChungmanPARK12/WebJava/tree/26cfd0277a522082aa493500bdd0f3b6bb9685d4/AddToCart)
+* ### One Example Code of Add To Cart [Click here](https://github.com/ChungmanPARK12/WebJava/tree/743f2cae43f2e0eb14bc8d416095f5c85df0f2b5/src/AddToCart)
 
 
 
@@ -105,23 +105,23 @@ The purpose of this project is to serve as a central controller in a Java web ap
 - thankyou.jsp
 - titles.jsp
 
-* ### One Example Code of Titles [Click here](https://github.com/ChungmanPARK12/WebJava/tree/26cfd0277a522082aa493500bdd0f3b6bb9685d4/ViewLayer)
+* ### One Example Code of Titles [Click here](https://github.com/ChungmanPARK12/WebJava/tree/743f2cae43f2e0eb14bc8d416095f5c85df0f2b5/src/ViewLayer)
 
 <h2>Model Layer</h2>
 
 - **Book**: Represents a book with attributes, ISBN, title, author and price.
 
-* ### Example of Code [Click here](https://github.com/ChungmanPARK12/WebJava/tree/26cfd0277a522082aa493500bdd0f3b6bb9685d4/ModelBook)
+* ### Example of Code [Click here](https://github.com/ChungmanPARK12/WebJava/tree/743f2cae43f2e0eb14bc8d416095f5c85df0f2b5/src/ModelBook)
 
 - **Cart Item**: Represents an item in the shopping cart, including the book, quantity and cost.
 
-* ### Example of Code [Click here](https://github.com/ChungmanPARK12/WebJava/tree/26cfd0277a522082aa493500bdd0f3b6bb9685d4/ModelCartItem)
+* ### Example of Code [Click here](https://github.com/ChungmanPARK12/WebJava/tree/743f2cae43f2e0eb14bc8d416095f5c85df0f2b5/src/ModelCartItem)
 
 <h2>Utility (Data Access Layer) Layer</h2>
 
 - **Admit Book Store DAO**: Provides methods to interact with the database, such as retrieving and storing book and cart information
 
-* ### Example of Code [Click here](https://github.com/ChungmanPARK12/WebJava/tree/26cfd0277a522082aa493500bdd0f3b6bb9685d4/Utility)
+* ### Example of Code [Click here](https://github.com/ChungmanPARK12/WebJava/tree/743f2cae43f2e0eb14bc8d416095f5c85df0f2b5/src/Utility)
 
 <h2>Database Layer</h2>
 
